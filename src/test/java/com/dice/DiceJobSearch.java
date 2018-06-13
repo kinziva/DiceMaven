@@ -1,5 +1,6 @@
 package com.dice;
 
+import java.time.LocalDateTime;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -69,10 +70,11 @@ public class DiceJobSearch {
 		System.out.println(count);
 		int countResult = Integer.parseInt(count.replace(",", ""));
 		if(countResult>0) {
-			System.out.println("Keyword: " +keyword+ " search returned " + countResult+ "results in"+ location);
+			System.out.println("Keyword: " +keyword+ " search returned " + countResult+ "results in "+ location);
 		}else {System.out.println("STEP FAILED");
 		}
 		driver.close();
+		System.out.println("Test Completed" + LocalDateTime.now()); 
 
 	}
 
