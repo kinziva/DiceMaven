@@ -1,65 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24583" started-at="2018-06-27T15:34:06Z" finished-at="2018-06-27T15:34:30Z">
+  <suite name="Default suite" duration-ms="10640" started-at="2018-07-10T16:42:18Z" finished-at="2018-07-10T16:42:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24583" started-at="2018-06-27T15:34:06Z" finished-at="2018-06-27T15:34:30Z">
-      <class name="com.cybertek2.WebElementsForm">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cybertek2.WebElementsForm@4883b407]" name="setUpClass" is-config="true" duration-ms="6740" started-at="2018-06-27T15:34:06Z" finished-at="2018-06-27T15:34:13Z">
+    <test name="Default test" duration-ms="10640" started-at="2018-07-10T16:42:18Z" finished-at="2018-07-10T16:42:29Z">
+      <class name="com.PomDesign.OrdersPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.PomDesign.OrdersPageTest@77cd7a0]" name="setUp" is-config="true" duration-ms="5867" started-at="2018-07-10T16:42:18Z" finished-at="2018-07-10T16:42:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="navigateHomePage()[pri:0, instance:com.cybertek2.WebElementsForm@4883b407]" name="navigateHomePage" is-config="true" duration-ms="3264" started-at="2018-06-27T15:34:13Z" finished-at="2018-06-27T15:34:16Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpApplication()[pri:0, instance:com.PomDesign.OrdersPageTest@77cd7a0]" name="setUpApplication" is-config="true" duration-ms="508" started-at="2018-07-10T16:42:24Z" finished-at="2018-07-10T16:42:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateHomePage -->
-        <test-method status="PASS" signature="testInput()[pri:1, instance:com.cybertek2.WebElementsForm@4883b407]" name="testInput" duration-ms="8" started-at="2018-06-27T15:34:16Z" finished-at="2018-06-27T15:34:16Z">
+        </test-method> <!-- setUpApplication -->
+        <test-method status="PASS" signature="labelsVerication()[pri:1, instance:com.PomDesign.OrdersPageTest@77cd7a0]" name="labelsVerication" duration-ms="24" started-at="2018-07-10T16:42:25Z" description="Verify labels and tab links are displayed" finished-at="2018-07-10T16:42:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testInput -->
-        <test-method status="PASS" signature="navigateHomePage()[pri:0, instance:com.cybertek2.WebElementsForm@4883b407]" name="navigateHomePage" is-config="true" duration-ms="545" started-at="2018-06-27T15:34:16Z" finished-at="2018-06-27T15:34:16Z">
+        </test-method> <!-- labelsVerication -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.PomDesign.OrdersPageTest@77cd7a0]" name="logout" is-config="true" duration-ms="0" started-at="2018-07-10T16:42:25Z" finished-at="2018-07-10T16:42:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateHomePage -->
-        <test-method status="PASS" signature="testDropdowns()[pri:2, instance:com.cybertek2.WebElementsForm@4883b407]" name="testDropdowns" duration-ms="1" started-at="2018-06-27T15:34:16Z" finished-at="2018-06-27T15:34:16Z">
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="setUpApplication()[pri:0, instance:com.PomDesign.OrdersPageTest@77cd7a0]" name="setUpApplication" is-config="true" duration-ms="198" started-at="2018-07-10T16:42:25Z" finished-at="2018-07-10T16:42:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDropdowns -->
-        <test-method status="PASS" signature="navigateHomePage()[pri:0, instance:com.cybertek2.WebElementsForm@4883b407]" name="navigateHomePage" is-config="true" duration-ms="591" started-at="2018-06-27T15:34:16Z" finished-at="2018-06-27T15:34:17Z">
+        </test-method> <!-- setUpApplication -->
+        <test-method status="PASS" signature="placeOrder()[pri:2, instance:com.PomDesign.OrdersPageTest@77cd7a0]" name="placeOrder" duration-ms="3993" started-at="2018-07-10T16:42:25Z" description="Verify order added" finished-at="2018-07-10T16:42:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateHomePage -->
-        <test-method status="PASS" signature="testCheckbox()[pri:3, instance:com.cybertek2.WebElementsForm@4883b407]" name="testCheckbox" duration-ms="1" started-at="2018-06-27T15:34:17Z" finished-at="2018-06-27T15:34:17Z">
+        </test-method> <!-- placeOrder -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.PomDesign.OrdersPageTest@77cd7a0]" name="logout" is-config="true" duration-ms="0" started-at="2018-07-10T16:42:29Z" finished-at="2018-07-10T16:42:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCheckbox -->
-        <test-method status="PASS" signature="navigateHomePage()[pri:0, instance:com.cybertek2.WebElementsForm@4883b407]" name="navigateHomePage" is-config="true" duration-ms="1180" started-at="2018-06-27T15:34:17Z" finished-at="2018-06-27T15:34:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateHomePage -->
-        <test-method status="PASS" signature="testRadiobox()[pri:4, instance:com.cybertek2.WebElementsForm@4883b407]" name="testRadiobox" duration-ms="1" started-at="2018-06-27T15:34:18Z" finished-at="2018-06-27T15:34:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testRadiobox -->
-        <test-method status="PASS" signature="navigateHomePage()[pri:0, instance:com.cybertek2.WebElementsForm@4883b407]" name="navigateHomePage" is-config="true" duration-ms="382" started-at="2018-06-27T15:34:18Z" finished-at="2018-06-27T15:34:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateHomePage -->
-        <test-method status="PASS" signature="buttons()[pri:5, instance:com.cybertek2.WebElementsForm@4883b407]" name="buttons" duration-ms="1" started-at="2018-06-27T15:34:19Z" finished-at="2018-06-27T15:34:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- buttons -->
-        <test-method status="PASS" signature="navigateHomePage()[pri:0, instance:com.cybertek2.WebElementsForm@4883b407]" name="navigateHomePage" is-config="true" duration-ms="702" started-at="2018-06-27T15:34:19Z" finished-at="2018-06-27T15:34:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateHomePage -->
-        <test-method status="PASS" signature="Fill()[pri:6, instance:com.cybertek2.WebElementsForm@4883b407]" name="Fill" duration-ms="11100" started-at="2018-06-27T15:34:19Z" finished-at="2018-06-27T15:34:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Fill -->
-      </class> <!-- com.cybertek2.WebElementsForm -->
+        </test-method> <!-- logout -->
+      </class> <!-- com.PomDesign.OrdersPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

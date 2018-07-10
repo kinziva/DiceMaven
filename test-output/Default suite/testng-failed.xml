@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.cybertek2.WebElementsForm">
+      <class name="com.PomDesign.OrdersPageTest">
         <methods>
-          <include name="Fill"/>
-          <include name="setUpClass"/>
-          <include name="navigateHomePage"/>
+          <include name="setUp"/>
+          <include name="logout"/>
+          <include name="setUpApplication"/>
+          <include name="placeOrder"/>
         </methods>
-      </class> <!-- com.cybertek2.WebElementsForm -->
+      </class> <!-- com.PomDesign.OrdersPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
